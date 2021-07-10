@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "admin",
+    "password": "10101010",
+    "database": "kinesis_project",
+    "host": "database-1.cy6x8ac5cpp4.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
